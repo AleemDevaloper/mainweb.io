@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <!-- Fav icons -->
+     <link href="/src/assets/images/logo1.png" rel="icon">
+     <link href="/src/assets/images/logo1.png" rel="apple-touch-icon">
+  
+    <!-- Discription and contacts -->
+    <title>Aleem Developer</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+   
+    
+    <!-- font awsome icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- carasoul  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+  
+    <!-- fade up animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <link rel="stylesheet" href="./src/assets/swiper/swiper-bundle.min.css">
+
+  <!-- =======================================================
+  * Template Name: Aleem Developer
+  * Made by: Muhammad Aleem
+  * Template URL: https://aleemdevaloper.github.io/aleem-developer.github.com/
+  * Author: Muhammad Aleem
+  * Git : aleem-developer.github.com
+  * License: Aleem developer
+  ======================================================== -->
+  </head>
+  <body style=" cursor: none;">
+    <style>
+     
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+      /* Custom cursor styling */
+      .arrow {
+    border: 2px solid cyan;
+    border-radius: 50%;
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    transform: matrix(1, 0, 0, 1, 697, 106),translate(-50%, -50%); 
+      z-index: 2;
+      left: 0;
+      top: 0;
+      transition: transform .1s, width .3s, height .3s;
+      pointer-events: none;
+  }
+  .dot{
+    position: fixed;
+    height: 5px;
+    width: 5px;
+    top: 0;
+    left: 0;
+    background: cyan;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 2;
+    transform: matrix(1, 0, 0, 1, 697, 106),translate(-50%, -50%); 
+    transition: transform .07s, width .3s, height .3s, ; }
+    </style>
+     <div class="dot"></div>
+     <div class="arrow">
+     </div>
+    
+    <div id="root"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="./src/assets/JS/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const cursor = document.querySelector('.arrow');
+      const dot = document.querySelector('.dot');
+ window.addEventListener('mousemove', (event) => {
+  dot.style.transform = `translate(${event.clientX - 0}px, ${event.clientY - 0}px)`;
+  cursor.style.transform = `translate(${event.clientX - 15}px, ${event.clientY - 15}px)`;
+   });
+      AOS.init(); 
+
+
+</script>
+   
+    <noscript>Your browser do not support the Javascript</noscript>
+  </body>
+</html>

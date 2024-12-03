@@ -1,0 +1,48 @@
+@import "../abstracts/variable.scss";
+@import "../abstracts/function.scss";
+@import "../abstracts/reset.scss";
+.about {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: $sub3-main-color;
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+    @media (max-width: 992px) {
+        .flex-column-lg {
+            flex-direction: column;
+        }
+    }
+
+    .about-txt {
+        @media (max-width: 400px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+    }
+
+    .ab-c {
+        background-color: $sub4-color;
+        border-radius: 30px;
+        padding: 1rem;
+        border: 1px solid $main-color;
+        @media (max-width: 552px) {
+
+            padding: 4px 6px;
+        }
+
+        @media (max-width: 490px) {
+            flex-direction: column;
+
+            .col {
+                flex: 100%;
+            }
+        }
+    }
+
+    .about-img {
+        margin: 40px 0px;
+    }
+
+}

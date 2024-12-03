@@ -1,0 +1,17 @@
+@import "../abstracts/variable.scss";
+@import "../abstracts/function.scss";
+@import "../abstracts/reset.scss";
+.car{
+    display: flex !important;
+    flex-direction: column;
+    .img-sec{
+           img{
+            width: 100%;
+           }
+    }
+    .text-center{
+        h3{
+            color: $sub-main-color;
+        }
+    }
+}

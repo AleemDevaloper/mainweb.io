@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+ul,
+ol,
+li {
+	cursor: none !important;
+	list-style: none;
+}
+
+input,
+button {
+	cursor: none !important;
+	border: 0px;
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+textarea{
+	cursor: none !important;
+}
+a {
+	cursor: none !important;
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+button {
+	cursor: none !important;
+	display: inline-block;
+	background-color: transparent;
+}
+
+body {
+	font-weight: 400;
+	overflow-x: hidden;
+	font-family: $f-primary;
+	background: url(/src/assets/images/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+    scroll-behavior: smooth;
+}
