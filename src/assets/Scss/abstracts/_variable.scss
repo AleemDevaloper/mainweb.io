@@ -4,21 +4,21 @@ $sub2-main-color: rgb(150, 150, 150);
 $sub3-main-color: black;
 $sub4-color: rgb(49, 49, 49);
 $f-primary: 'Poppins' ,'Roboto', Arial, 'NunitoSans' , Helvetica, sans-serif;
-@font-face {
-    font-family: Roboto;
-    font-size: 40px;
-    src: url('../../fonts/Roboto/Roboto-Medium.ttf');
-}
-@font-face {
-    font-family: Poppins;
-    font-size: 40px;
-    src: url('../../fonts/Poopins/Poppins-Medium.ttf');
-}
-@font-face {
-    font-family: NunitoSans;
-    font-size: 40px;
-    src: url('../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf');
-}
+// @font-face {
+//     font-family: Roboto;
+//     font-size: 40px;
+//     src: url('../../fonts/Roboto/Roboto-Medium.ttf');
+// }
+// @font-face {
+//     font-family: Poppins;
+//     font-size: 40px;
+//     src: url('../../fonts/Poopins/Poppins-Medium.ttf');
+// }
+// @font-face {
+//     font-family: NunitoSans;
+//     font-size: 40px;
+//     src: url('../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf');
+// }
 
 .main-color{
     color: $main-color;

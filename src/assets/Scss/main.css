@@ -1,19 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -150,21 +135,6 @@ body {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -240,21 +210,6 @@ body {
   border-radius: 10px;
 }
 
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -391,21 +346,6 @@ body {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -688,21 +628,6 @@ header .click .text-toogle ul li a:hover {
   color: cyan;
 }
 
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -927,21 +852,6 @@ body {
   color: cyan;
 }
 
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -1118,21 +1028,6 @@ body {
   margin: 40px 0px;
 }
 
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -1289,21 +1184,6 @@ body {
   margin: 20px 0px;
 }
 
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -1500,21 +1380,6 @@ body {
   color: cyan;
 }
 
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -1746,21 +1611,6 @@ body {
   padding: 30px 0px;
 }
 
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -1908,21 +1758,6 @@ body {
   color: white;
 }
 
-@font-face {
-  font-family: Roboto;
-  font-size: 40px;
-  src: url("../../fonts/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: Poppins;
-  font-size: 40px;
-  src: url("../../fonts/Poopins/Poppins-Medium.ttf");
-}
-@font-face {
-  font-family: NunitoSans;
-  font-size: 40px;
-  src: url("../../fonts/Nunito_Sans/static/NunitoSans_10pt-Medium.ttf");
-}
 .main-color {
   color: cyan;
 }
@@ -2253,13 +2088,6 @@ body {
 }
 
 /* Icons */
-@font-face {
-  font-family: "slick";
-  font-weight: normal;
-  font-style: normal;
-  src: url("./fonts/slick.eot");
-  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
-}
 /* Arrows */
 .slick-prev,
 .slick-next {
@@ -2428,7 +2256,6 @@ body {
 .slider-area .c-slider .slick-prev {
   width: 25px;
   height: 45px;
-  background: url(/Assets/images/icon03.png) no-repeat;
   background-size: 100%;
   left: -40px;
 }
@@ -2453,7 +2280,6 @@ body {
 .slider-area .c-slider .slick-next {
   width: 25px;
   height: 45px;
-  background: url(/Assets/images/icon02.png) no-repeat;
   background-size: 100%;
   right: -40px;
 }
